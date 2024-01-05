@@ -27,3 +27,41 @@ console.log(typeof b);
 var v1=10;
 var v2=15;
 console.log(v1+v2);
+console.log(v1-v2);
+console.log(v1*v2);
+console.log(v1/v2);
+console.log(v1%v2);
+console.log(v1>v2);
+console.log(v1<v2);
+console.log(v1**v2);
+console.log(v1^v2);
+
+//pre increment
+v1=++v1;
+console.log(v1);
+v2=++v2;
+console.log(v2);
+//pre decrement
+v1=--v1;
+console.log(v1);
+v2=--v2;
+console.log(v2);
+
+v1==v2;
+console.log(v1);
+v2!==v1;
+console.log(v2);
+
+var v1=7;
+console.log(v1>10);
+console.log(v1<10);
+console.log(v1==10);
+console.log(v1>=7);
+console.log(v1<=7);
+
+
+
+
+
+
+
