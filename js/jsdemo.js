@@ -59,6 +59,23 @@ console.log(v1==10);
 console.log(v1>=7);
 console.log(v1<=7);
 
+//ternary operator
+//60 grade c, 70 grade b, 80 grade a, 90 grade distinction
+m=55;
+var mark= ((60<m) && (m<70))?"grade c":"grade U"
+console.log(mark);
+
+m=75;
+var mark=(60<m && m<70)?"garde c":(70<m && 80>m)?"grade B": "grade U"
+console.log (mark);
+
+m=95;
+var mark=(60<m && m<70)?"garde c":(70<m && 80>m)?"grade B": (90<m)?"grade Distinction":"grade U"
+console.log (mark);
+
+//function declaration
+
+
 
 
 
