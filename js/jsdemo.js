@@ -72,10 +72,119 @@ console.log (mark);
 m=95;
 var mark=(60<m && m<70)?"garde c":(70<m && 80>m)?"grade B": (90<m)?"grade Distinction":"grade U"
 console.log (mark);
+console.clear();
 
-//function declaration
+//function declaration.
+//condition statement
 
+function checkgrade(m)
+{
+if (60<m && m<70)
+{
+console.log ("pass");
+console.log ("grade C");
+}
+}
+checkgrade(55);
 
+//if - else statement
+
+function checkgrade(m){
+
+    if (60<m && m<70)
+    {
+    console.log ("pass");
+    console.log ("grade C");
+    }
+    else
+    {
+        console.log ("fail");
+        console.log("Grade U"); 
+        console.clear(); 
+  
+    }
+    checkgrade(55);
+    
+}
+
+//Nested if statement
+
+function checkgrade(m){
+
+    if (60<m && m<70)
+    {
+    console.log ("pass");
+    console.log ("grade C");
+    }
+    else
+    {
+        if(70<m && 80>m)
+        {
+
+        console.log ("pass");
+        console.log ("Grade B"); 
+        }
+        
+        else if(80<m && 90<=m){
+            console.log("pass");
+            console.log("Grade A");
+        }
+        else if(m>90)
+        {
+            console.log("distinction")
+        }
+        else{
+            checkgrade(prompt("enter mark"));
+
+        }
+        
+  
+    }
+   
+    
+}
+console.clear();
+checkgrade();
+
+//switch condition statement
+
+function checkgrade(a)
+{ 
+    switch(a)
+    {
+        case 1:
+            console.log ("case 1 executed",a);
+            break;
+        case 2:
+            console.log("case 2 excecuted",a);
+            break;
+        case 3:
+            default:
+                console.log("nothing is excecuted");
+    }
+    
+}
+checkgrade(2);
+
+//switch condition 
+
+function checkgrade(m)
+{var mark= ((60<m) && (70<m));
+    switch(m)
+    {
+        case 1:
+            console.log ("Grade C",a);
+            break;
+        case 2:
+            console.log("Grade U",a);
+            break;
+        case 3:
+            default:
+                console.log("not in list");
+    }
+    
+}
+checkgrade(prompt("enter marks"));
 
 
 
