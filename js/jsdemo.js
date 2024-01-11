@@ -208,7 +208,7 @@ function switchwao(a)
         break;
 
         case 'mul':
-        console.log('multiplied value of ',a1, 'and ',b1,'is .. ', a1+b1);
+        console.log('multiplied value of ',a1, 'and ',b1,'is .. ', a1*b1);
         break;
 
         default :
@@ -217,6 +217,6 @@ function switchwao(a)
 }
 switchwao(prompt("enter operator"));
 
-
+Increment/decrement
 
 
