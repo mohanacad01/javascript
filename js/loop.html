@@ -1,6 +1,6 @@
 
 <html>
-<lable for=printvalue>printvalue:</lable>
+    printvalue:
 <input type="text" name="tbvalue" id="tbvalue" value=""><br>
 
 <input type="submit" value="result" onclick="getvaluefun()">
@@ -10,15 +10,15 @@ function getvaluefun()
 {
     
     var printvalue=document.getElementById("tbvalue").value
-    printValue=Number(printValue);
+    printvalue=Number(printvalue);
 
-}
+
 
 
 while(printvalue<15)
 {
-    console.log("print value "+ printValue + " is smaller than 20 "); //printed
-printValue++; 
-}
+    console.log("print value "+ printvalue + " is smaller than 20 "); //printed
+printvalue++; 
+}}
 </script>
 </html>
