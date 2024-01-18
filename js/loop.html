@@ -1,0 +1,24 @@
+
+<html>
+<lable for=printvalue>printvalue:</lable>
+<input type="text" name="tbvalue" id="tbvalue" value=""><br>
+
+<input type="submit" value="result" onclick="getvaluefun()">
+
+<script>
+function getvaluefun()
+{
+    
+    var printvalue=document.getElementById("tbvalue").value
+    printValue=Number(printValue);
+
+}
+
+
+while(printvalue<15)
+{
+    console.log("print value "+ printValue + " is smaller than 20 "); //printed
+printValue++; 
+}
+</script>
+</html>

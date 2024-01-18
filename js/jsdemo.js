@@ -215,8 +215,33 @@ function switchwao(a)
           alert("value not in the list");
     }
 }
-switchwao(prompt("enter operator"));
 
-Increment/decrement
+function click1(){
+    var username2=document.getElementById("tbuname1").value;
+    console.log(username1);
+    var password2=document.getElementById("tbps").value;
+    // console.log(password1);
+    var Name2=document.getElementById("tbName").value;
+    // console.log(Name);
+    var DOB2=document.getElementById("tbDOB").value;
+    // console.log(DOB);
+    var location2=document.getElementById("tbLocation").value;
+    // console.log(location);
+    var email2=document.getElementById("tbEmail").value;
+    // console.log(email);
+    var Male2=document.getElementById("tbMale").value;
+    // console.log(Male);
+     //var Female2=document.getElementById("tbFemale").value;
+    // console.log(Female);
+   
+    // console.log(tbidAddress);
+document.getElementById("tduname1").innerHTML=username2;
+document.getElementById("pw1").innerHTML=password2;
+document.getElementById("Name1").innerHTML=Name2;
+document.getElementById("DOB1").innerHTML=DOB2;
+document.getElementById("Location1").innerHTML=location2;
+document.getElementById("email1").innerHTML=email2;
+document.getElementById("gender1").innerHTML=Male2;
 
 
+}

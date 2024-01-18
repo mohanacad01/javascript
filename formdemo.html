@@ -1,0 +1,108 @@
+<html>
+<head>
+<title> USER REGISTRATION</title>
+<link rel="stylesheet"type="text/css" href="style.css">
+</head>
+<body>
+<h1> <center> User registeration</h1>
+    <lable for=username> UserName:</lable>
+    <br>
+    <input type="text" name="tbuname1" size="15"  id="tbiduname1" value =""><br>
+
+    <lable for=password> password:</lable>
+    <br>
+    <input type="text" name="tbidpass" size="15"  id="tbidpass" value =""><br>
+
+    <lable for=Name> Name:</lable>
+    <br>
+    <input type="text" name="tbidName" size="15"  id="tbidName" value =""><br>
+
+    <lable for=Email>Email :</lable>
+    <br>
+    <input type="text" name="tbidemail" size="15"  id="tbidemail" value =""><br>
+    
+    <lable for=DOB> DOB:</lable>
+    <br>
+    <input type="date" name="tbidDOB" size="15"  id="tbidDOB" value =""><br>
+
+    <lable for=Location>Location :</lable>
+    <br>
+    <input type="text" name="tbidlocation" size="15"  id="tbidlocation" value =""><br>
+
+    <lable for="Gender">Gender:</lable>
+<br>
+<lable for="Gender">Male:</lable>
+<input type="radio" name="tbidMale" id="tbidMale" value="male">
+<lable for="Gender">Female:</lable>
+<input type="radio" name="tbidFemale" id="tbidFemale" value="female"> 
+<br>
+
+    <button type="button" onclick="click1()">Register</button>
+    
+    <table border="1px">
+    
+        <tr>
+            <td>Username</td>
+            <td id="tduname1"></td>
+        </tr>
+
+        <tr>
+            <td>password</td>
+            <td id="tdpass"></td>
+        </tr>
+
+        <tr>
+            <td>Name</td>
+            <td id="tdName"></td>
+        </tr>
+
+        <tr>
+            <td>Email</td>
+            <td id="tdemail"></td>
+        </tr> 
+        
+        <tr>
+            <td>DOB</td>
+            <td id="tdDOB"></td>
+        </tr>
+
+        <tr>
+            <td>Location</td>
+            <td id="tdlocation"></td>
+        </tr>
+
+        <tr>
+            <td>gender</td>
+            <td id="tdMale"></td>
+            <td id="tdFemale"></td>
+        </tr>
+
+
+    </table>
+        <script>
+        function click1(){
+            var username2=document.getElementById("tbiduname1").value;
+            document.getElementById("tduname1").innerHTML=username2;
+        
+            var password2=document.getElementById("tbidpass").value;
+            document.getElementById("tdpass").innerHTML=password2;
+
+            var Name2=document.getElementById("tbidName").value;
+            document.getElementById("tdName").innerHTML=Name2;
+
+            var Email2=document.getElementById("tbidemail").value;
+            document.getElementById("tdemail").innerHTML=Email2;
+            
+            var DOB2=document.getElementById("tbidDOB").value;
+            document.getElementById("tdDOB").innerHTML=DOB2;
+
+            var Location2=document.getElementById("tbidlocation").value;
+            document.getElementById("tdlocation").innerHTML=Location2;
+
+            var Gender1=document.getElementById("tbidMale").value;
+            document.getElementById("tdMale").innerHTML=Gender1;
+            var Gender2=document.getElementById("tbidFemale").value;
+            document.getElementById("tdFemale").innerHTML=Gender2;
+        }
+        </script>
+        
