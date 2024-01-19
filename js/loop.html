@@ -9,7 +9,7 @@
 function getvaluefun()
 {
     
-    var printvalue=document.getElementById("tbvalue").value
+    var printvalue=document.getElementById("tbvalue").value;
     printvalue=Number(printvalue);
 
 
@@ -17,8 +17,20 @@ function getvaluefun()
 
 while(printvalue<15)
 {
-    console.log("print value "+ printvalue + " is smaller than 20 "); //printed
+    console.log("print value "+ printvalue + " is smaller than 15 "); //printed
 printvalue++; 
-}}
+}
+
+do{
+    console.log("print value in do while for"+ printvalue + " is smaller than 20 ");
+    printvalue++;
+}
+while(printvalue<20)
+
+for(printvalue; printvalue<25; printvalue++)
+{
+    console.log("print value in for loop for "+ printvalue + " is smaller than 25 ");
+}
+}
 </script>
 </html>
